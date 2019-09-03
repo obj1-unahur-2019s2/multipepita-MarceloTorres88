@@ -9,7 +9,7 @@ test "roque trabaja" {
     roque.tuPupiloEs(pipa)
     roque.entrenar()
     assert.equals(5400, pipa.energia())
-     assert.equals(5400, pepita.energia())
+    assert.equals(5400, pepita.energia())
 }
 
 test "roque trabaja1" {

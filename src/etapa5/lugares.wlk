@@ -25,8 +25,11 @@ var temporada = "alta"
 
 	method cambiarTemporada() {
 		if (temporada == "alta") {
-			temporada = "baja" energia -= 20 
-		  } else { temporada ="alta" energia += 20
+			temporada = "baja" 
+			energia -= 20 
+		  } else { 
+		  	temporada ="alta" 
+		  	energia += 20
 		         }
 	}
 }
