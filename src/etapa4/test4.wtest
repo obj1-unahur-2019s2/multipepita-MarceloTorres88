@@ -1,0 +1,21 @@
+import pepita.*
+import comidas.*
+import masAves.*
+import roque.*
+
+test "roque trabaja" {
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.tuPupiloEs(pipa)
+    roque.entrenar()
+    assert.equals(5400, pipa.energia())
+     assert.equals(5400, pepita.energia())
+}
+
+test "roque trabaja1" {
+    roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.entrenar()
+}
+//¿se rompe algo? y ¿cómo queda afectada Pepita?
+//el test debe tener algo para comparar, no se rompe 
