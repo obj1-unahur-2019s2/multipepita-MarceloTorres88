@@ -1,0 +1,20 @@
+import pepita.*
+import comidas.*
+import masAves.*
+import roque.*
+import susana.*
+
+test "primer prueba"{
+	pepita.comer(alpiste,200)
+	pepon.comer(alpiste,200)
+	roque.tuPupiloEs(pepita)
+	susana.tuPupiloEs(pepon)
+	pepita.energia()
+	pepon.energia()
+	assert.equals(800,pepita.energia())
+	assert.equals(400,pepon.energia())
+	roque.entrenar()
+	susana.entrenar()
+	assert.equals(1965,pepita.energia())
+	assert.equals(589,pepon.energia())
+}

@@ -1,0 +1,10 @@
+import lugares.*
+import pepita.*
+
+test "pepita viaja"{
+	pepita.visitar(patagonia)
+	pepita.visitar(sierrasCordobesas)
+	pepita.visitar(mDQ)
+	pepita.visitar(noroeste)//198 =180 + 18 que es el 10% 
+	assert.equals(8000,pepita.energia())
+}

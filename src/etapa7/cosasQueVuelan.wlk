@@ -1,10 +1,7 @@
-/*
- * Traerse las definiciones de la etapa 4
- */
-// import roque.roque
-// import pepita.pepita
-// import masAves.pepon
-// import masAve.pipa
+import roque.roque
+import pepita.pepita
+import masAves.pepon
+import masAves.pipa
 
 object helicopteroFeo {
   var kmDesdeUltimoService = 0
